@@ -73,5 +73,4 @@ Performing enrichment analysis using R language, and the source code is provided
 ```R
 source("enrich.R")
 ```
-## Citing
 
