@@ -1,0 +1,14 @@
+python=3.7.0
+torch=1.11.0
+numpy=1.20.1
+pandas=1.4.2
+tqdm=4.64.0
+fire=0.4.0
+scipy=1.6.2
+networkx=2.0
+gensim=4.2.0
+scikit-learn= 1.0.2
+R 4.3.1(R language)
+clusterProfiler=4.8.2
+DESeq2
+dplyr
