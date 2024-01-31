@@ -1,11 +1,11 @@
 # MHIF-MSEA
-Source code for paper "MHIF-MSEA：a novel model of miRNA functional enrichment analysis based on multi-source heterogeneous information fusion".
+Source code for paper "MHIF-MSEA: a novel model of miRNA set enrichment analysis based on multi-source heterogeneous information fusion".
 
 ------
 
 ## data
 
-Data obtained from different biological databases are preprocessed and a heterogeneous information network consisting of three miRNA similarity networks (Disease-Based, Target Gene GO Annotation-Based, Protein Sequence-Based)
+Data from diverse biological databases are preprocessed to construct a miRNA-miRNA association  network, which includes three miRNA similarity networks based on miRNA-disease associations, GO annotations of target genes, and protein-protein interactions of target genes.
 ## Fuse miRNA  Similarity Network 
 ------
 In this section, we fused the three miRNA similarity matrices obtained from the data preprocessing step. We perform fusion between any two networks and aggregate.The specific steps for this fusion are as follows:
